@@ -1,0 +1,44 @@
+/* Desktop View */
+@media (min-width: 1024px){
+
+}
+
+
+/* Tablet View */
+@media (min-width: 769px) and (max-width: 1023px){
+    section .main .searchbox .icon {
+        width: 94%;
+    }
+    section .main .searchbox .seacrh {
+        width: 90%;
+    }
+    section header ul li button {
+        background-color:tomato;
+    }
+}
+
+
+/* Mobile View */
+@media (max-width: 768px){
+    section .main .searchbox .seacrh {
+        width: 78%;
+        padding-left: 46px;
+        font-size: 14px;
+    }
+    section .main .searchbox .icon {
+        width: 81%;
+    }
+    section .footer .row ul {
+        display: block;
+    }
+    section .main .searchbox {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section header ul li button {
+        background-color:brown;
+    }
+}
+

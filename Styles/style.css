@@ -24,14 +24,6 @@ section header ul {
     justify-content: center;
     align-items: center;
 }
-.logo_img{
-    padding: 10px;
-}
-.logo_img:hover{
-    background-color: rgb(220, 220, 228);
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
-}
 section header ul li{
     list-style: none;
     margin-right: 20px;
@@ -55,7 +47,7 @@ section header ul li button{
 
 /* Main Section Start */
 section .main{
-    width: 580px;
+    width: 680px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,10 +59,9 @@ section .main .searchbox{
     margin-top: 20px;
 }
 section .main .searchbox .seacrh{
-    width: 100%;
+    width: 98%;
     padding: 13px;
-    padding-left: 45px;
-    padding-right: 0px;
+    padding-left: 60px;
     border-radius: 30px;
     border: 1px solid #ccc;
     outline: none;
@@ -85,11 +76,6 @@ section .main .searchbox .icon{
     align-items: center;
     padding: 12px 20px;
     pointer-events: none;
-}
-.img2 img{
-    width: 18px;
-    height: 20px;
-    margin-right: 10px;
 }
 section .main .buttons{
     margin-top: 20px;
